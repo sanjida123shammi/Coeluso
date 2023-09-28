@@ -7,6 +7,7 @@ $(document).ready(function(){
           delay: 1200,
           disableOnInteraction: false
         },
+        speed:600,
 
         effect:"coverflow",
         grabCursor:false,
@@ -30,6 +31,7 @@ $(document).ready(function(){
           delay: 1200,
           disableOnInteraction: false
         },
+        speed:600,
 
         effect:"coverflow",
         grabCursor:false,

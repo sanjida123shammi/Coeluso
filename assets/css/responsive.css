@@ -5,11 +5,10 @@
 	.navbar-brand img{ width: 84%; }
 	.navbar-toggler span { border: 1px solid #2a5da3;    margin-bottom: 7px;    padding: 0.5px 14px; }
 	.hero-content p, .modal-body p { font-size: 15px; }	
-	.swiper-slide{ width: 442px;	height: auto; }
-	.slider-section { padding-bottom: 0px; }
+	.swiper-slide{ width: 442px;	height: 648px; }
 	.about-section { padding: 50px 0; }
 	.about-section p, .features p, .title p { line-height: 28px;	font-size: 13px; }
-	.feature-section { padding-bottom: 150px; }
+	.feature-section { padding-bottom: 90px; }
 	.feature-section h1 {  margin-bottom: 38px; }
 	.features i, .title h2 { font-size: 34px; }
 	.features h3 { font-size: 22px; }
@@ -22,7 +21,7 @@
 	.btn-all, .info p { font-size: 14px; }
 	.owl-carousel button.owl-dot { width: 10px;    height: 10px; }
 	.download-section { padding: 100px 0 120px; }
-	.mobile { width: 415px;    top: 44%; }
+	.mobile { width: 415px;    top: 45%; }
 	.phoneSwiper .swiper-wrapper{ margin-top: 0px; }
 	.phoneSwiper .swiper-slide{ margin-top: 120px; }
 	.phoneSwiper .swiper-slide img { width: 270px;	height: auto; }
@@ -37,13 +36,12 @@
 }
 
 @media (min-width: 1400px) and (max-width: 1700px){
-	.swiper-slide{ width: 543px;	height: 796px; }
+	.swiper-slide{ width: 543px; }
 	.about-section { padding: 90px 0; }
 	.feature-section { padding: 100px 0; }
 	.feature-img img { width: 60%; }
 	.perspective-section { padding: 60px 0; }
 	.perspective-img img { top: 45%; }
-	.mobile { top: 38%; }
 }
 
 @media (max-width: 1199px){
@@ -69,9 +67,9 @@
 	.info { margin: 40px 0 70px; }	
 	.download-section { padding: 80px 0 100px; }
 	.title p { margin-bottom: 0;	padding: 0; }
-	.mobile { width: 370px;    top: 50%; }
+	.mobile { width: 370px;    top: 47%; }
 	.phoneSwiper .swiper-wrapper { min-height: 700px; }
-	.phoneSwiper .swiper-slide{ margin-top: 0px; }
+	.phoneSwiper .swiper-slide{ margin-top: 145px;	height: 580px; }
 	.phoneSwiper .swiper-slide img { width: 240px;	height: auto; }
 	.modal-lg, .modal-xl { --bs-modal-width: 530px; }
 	.modal-header { padding: 50px 0; }
