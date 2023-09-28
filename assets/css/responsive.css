@@ -128,6 +128,10 @@
 	.modal-footer .symu { padding: 12px 22px;    font-size: 13px; }
 }
 
+@media (max-width: 480px){
+	.mySwiper .swiper-slide { width: 340px; }
+}
+
 @media (max-width: 375px){
 	.navbar-toggler { padding: 0; }
 	.features i { font-size: 25px; }
