@@ -22,9 +22,10 @@
 	.btn-all, .info p { font-size: 14px; }
 	.owl-carousel button.owl-dot { width: 10px;    height: 10px; }
 	.download-section { padding: 100px 0 120px; }
-	.mobile { width: 465px;    top: 44%; }
-	.phoneSwiper .swiper-slide{ margin-top: 90px; }
-	.phoneSwiper .swiper-slide img { width: 300px;	height: auto; }
+	.mobile { width: 415px;    top: 44%; }
+	.phoneSwiper .swiper-wrapper{ margin-top: 0px; }
+	.phoneSwiper .swiper-slide{ margin-top: 120px; }
+	.phoneSwiper .swiper-slide img { width: 270px;	height: auto; }
 	.menu ul li a, footer p { font-weight: 700; }
 	.modal-lg, .modal-xl { --bs-modal-width: 650px; }
 	.modal-header { padding: 60px 0; }
