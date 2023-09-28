@@ -4,7 +4,7 @@ $(document).ready(function(){
     var swiper = new Swiper(".mySwiper", {
 
         autoplay: {
-          delay: 1000,
+          delay: 1200,
           disableOnInteraction: false
         },
 
@@ -27,14 +27,13 @@ $(document).ready(function(){
     var swiper = new Swiper(".phoneSwiper", {
 
         autoplay: {
-          delay: 1000,
+          delay: 1200,
           disableOnInteraction: false
         },
 
         effect:"coverflow",
         grabCursor:false,
-        centeredSlides:true,
-        slidesPerView:3,
+        centeredSlides:true,        
         spaceBetween:0,
         loop:true,
         coverflowEffect:{
@@ -44,6 +43,18 @@ $(document).ready(function(){
             modifier:1,
             slideShadows:false,
         },
+        breakpoints:{
+            0:{
+                slidesPerView:1,
+            },
+            575:{
+                slidesPerView:2,
+            },
+            768:{
+                slidesPerView:3,
+            }
+        }
+
     });
 
 
