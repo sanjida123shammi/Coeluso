@@ -1,4 +1,8 @@
-
+@media (min-width: 2200px){
+	.about-img img { width: 38%; }
+	.about-section p, .features p, .title p { font-size: 16px; }
+	.menu ul li a, footer p { font-size: 15px; }
+}
 
 @media (max-width: 1700px){
 	h1 { font-size: 36px; }
