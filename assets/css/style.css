@@ -1,0 +1,386 @@
+/* 
+	Theme: Dental Plus Responsive HTML Template
+	Author: Sanjida Shammi
+	Live URL: https://sanjida123shammi.github.io/
+
+	Primary Color: #f69165
+	Secondary Color: #00cce1
+
+	Font Style: Roboto
+ */
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(10, 35, 69);
+	background: linear-gradient(180deg, rgba(10, 35, 69, 1) 0%, rgba(8, 27, 54, 1) 50%, rgba(1, 0, 3, 1) 100%);
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+h1{
+	font-size: 42px;
+    font-weight: 600;
+}
+h1 span{
+	color: #2a5da3;
+}
+.btn-all{
+	border: 1px solid #2a5da3;
+    border-radius: 30px;
+    padding: 15px 27px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.btn-all:hover{
+	background: #14396a;
+	border: 1px solid #14396a;
+}
+
+
+/* Header Section */
+header{
+	padding: 35px 0 0;
+}
+.navbar-toggler {    
+    border: none;
+}
+.navbar-toggler:focus{    
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler span{
+    background: #2a5da3;
+    border: 1.3px solid #2a5da3;
+    border-radius: 2px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 0.6px 16px;
+    width: 100%;
+}
+.offcanvas{
+    background: #061326 !important;
+}
+.offcanvas-header {
+    padding-top: 30px;
+}
+.offcanvas-header .btn-xmark{
+	background: transparent;
+	border: none;
+	font-size: 28px;
+	color: #fff;
+}
+.offcanvas-title img{
+	width: 75%;
+}
+.offcanvas-body{
+	margin-top: 20px;
+	padding-left: 30px;
+}
+.nav-link{
+	margin-bottom: 15px;
+	font-weight: 600;
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+.nav-link:hover{
+	color: #ff3334;
+}
+.hero-content{
+	margin-top: 100px;
+	text-align: center;
+}
+.hero-content p{
+	margin: 30px 0 80px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #2a5da3;
+}
+
+
+/* Swiper Slider */
+.slider-section {
+	position: relative;
+ 	padding: 70px 0;
+}
+.slide-bg img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.swiper{
+	width: 100%;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+.swiper-slide{
+	margin: 0;
+	width: 543px;
+	height: 796px;
+}
+.swiper-slide:not(.swiper-slide-active){
+	filter: blur(0px);
+}
+.slide-img img{
+	width: 100%;
+}
+
+
+/* About Section */
+.about-section{
+	position: relative;
+	padding: 90px 0;
+}
+.about-img img{
+	position: absolute;
+	width: 45%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.about-section p, .features p, .title p{
+    margin: 30px 0 50px;
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 600;
+	color: #66778e;
+}
+
+
+/* Feature Section */
+.feature-section{
+	padding: 160px 0 130px;
+}
+.feature-section h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.feature-row{
+	position: relative;
+	margin: 130px 0 100px;
+}
+.features{
+	margin-bottom: 70px;
+}
+.features i{
+	font-size: 45px;
+	color: #ff3334;
+}
+.features h3{
+	margin-top: 35px;
+    font-size: 24px;
+}
+.features p{
+	margin: 15px 0;
+}
+.feature-bg img{
+	position: absolute;
+	width: 66%;
+	top: -46%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+/* Perspective Section */
+.perspective-section{
+	position: relative;
+	margin-bottom: 120px;
+	padding: 135px 0;    
+}
+.perspective h3{
+	margin: 60px 0 40px; 
+	font-size: 32px;  
+}
+.perspective-img img{
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.perspective i{
+	font-size: 55px;
+	color: #ff3334;
+}
+
+
+/* Opinion Section */
+.opinion-section{
+	background: url('../img/opinion-bg.png') no-repeat center left;
+	background-size: cover;
+	padding: 150px 0 130px;
+}
+.opinion p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+	color: #66778e;
+}
+.info{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	margin: 70px 0;
+}
+.client-img{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.info p{
+	font-size: 15px;
+}
+.info p span{
+	color: #213a61;
+}
+.owl-carousel .owl-dots {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.owl-carousel button.owl-dot {
+    background: transparent;
+    border: 2px solid #213a61;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.owl-carousel button.owl-dot.active {
+    background: #213a61;
+}
+
+
+/* Download Section */
+.download-section{
+	border-bottom: 1px solid #0d1525;
+	padding: 120px 0 140px;
+	text-align: center;
+}
+.title h2{
+	font-size: 40px;
+    font-weight: 600;
+}
+.title p{
+	padding: 0 100px;
+}
+.phoneSwiper .swiper-wrapper{
+	margin-top: 50px;
+}
+.phoneSwiper .swiper-slide{
+	margin-top: 120px;
+}
+.mobile {
+	width: 525px;
+	height: auto;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1000;
+}
+.phoneSwiper .swiper-slide:not(.swiper-slide-active){
+	opacity: .2;
+}
+.modal-header{
+	position: relative;
+	border-bottom: none;
+	padding: 95px 0;
+}
+.modal-header .modal-logo{
+	position: absolute;
+    background: #fff;
+	border-radius: 50%;
+	box-shadow: 0px 12px 25px #b9bcd1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 260px;
+	height: 260px;
+	top: -65%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.modal-header .modal-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 180px;
+	height: 180px;
+}
+.modal-header .modal-logo img{
+	width: 80%;
+}
+.modal-body h2{
+	font-weight: 700;
+	color: #dd2e45;
+}
+.modal-body p {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #b9bcd1;
+}
+.modal-footer{
+	border-top: none;
+	justify-content: center;
+	margin: 25px 0 45px;
+}
+.modal-footer .symu {
+    background: #eb304d;
+    border-radius: 3px;
+    padding: 18px 28px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+/* Footer Section */
+footer{
+	padding: 40px 0 30px;
+}
+.menu ul{
+	display: flex;
+	gap: 20px;
+}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a, footer p{
+	font-size: 14px;
+	font-weight: 800;
+	color: #14396a;
+	transition: all .3s ease-in-out;
+}
+.menu ul li a:hover{
+	color: #8496af;
+}
